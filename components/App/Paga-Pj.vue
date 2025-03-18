@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
     <div class="min-h-screen w-full flex justify-center items-center">
         <!-- bg -->
@@ -63,3 +66,18 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+/* ซ่อน scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ซ่อน scrollbar ใน Firefox */
+.scrollbar-none {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+</style>
