@@ -39,11 +39,11 @@
                                         <label class="text-black font-bold" for="">ชื่ออาจารย์</label>
                                         <select class="border border-black rounded-sm p-2  w-full lg:w-[450px]">
                                             <option value="">กรุณาเลือก</option>
-                                            <option value="ดร.เกษม เกษม">ดร.เกษม เกษม</option>
-                                            <option value="ดร.เกษม เกษม">ดร.เกษม เกษม</option>
-                                            <option value="ดร.เกษม เกษม">ดร.เกษม เกษม</option>
-                                            <option value="ดร.เกษม เกษม">ดร.เกษม เกษม</option>
-                                            <option value="ดร.เกษม เกษม">ดร.เกษม เกษม</option>
+                                            <option value="ดร.เกษม ตริตระการ">ดร.เกษม ตริตระการ</option>
+                                            <option value="ดร.เกษม ตริตระการ">ดร.เกษม ตริตระการ</option>
+                                            <option value="ดร.เกษม ตริตระการ">ดร.เกษม ตริตระการ</option>
+                                            <option value="ดร.เกษม ตริตระการ">ดร.เกษม ตริตระการ</option>
+                                            <option value="ดร.เกษม ตริตระการ">ดร.เกษม ตริตระการ</option>
                                         </select>
                                     </div>
                                     <div class="flex flex-col">
@@ -52,9 +52,11 @@
                                             <option value="">กรุณาเลือก</option>
                                             <option value="ที่ปรึกษาหลัก">ที่ปรึกษาหลัก</option>
                                             <option value="ที่ปรึกษารอง">ที่ปรึกษารอง</option>
-                                            
                                         </select>
                                     </div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="btn bg-[#1c66d6] text-white px-10">add</div>
                                 </div>
                             </div>
                         </div>
