@@ -3,11 +3,9 @@
 </script>
 
 <template>
-    <div class="">
-        <AppPaga-Pj />
+    <div>
+        <AppPage-Pj-2 />
     </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

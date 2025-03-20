@@ -18,12 +18,18 @@
                     <div class="mt-5 w-full">
                         <div class="border border-gray-400 w-full h-auto rounded-[5px] p-4 sm:p-5">
                             <div class="flex flex-col gap-y-3">
-                                <label class="text-black font-bold" for="">ชื่อหัวข้อ</label>
-                                <input class="border border-black rounded-sm p-2" type="text" placeholder="">
-                                <label class="text-black font-bold" for="">คู่โปรเจกค์</label>
-                                <input class="border border-black rounded-sm p-2" type="text" placeholder="">
-                                <label class="text-black font-bold" for="">ไฟล์สไลด</label>
-                                <input class="border border-black rounded-sm p-2" type="text" placeholder="">
+                                <div class="flex flex-col">
+                                    <label class="text-black font-bold" for="">ชื่อหัวข้อ</label>
+                                    <input class="border border-black rounded-sm p-2" type="text" placeholder="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="text-black font-bold" for="">คู่โปรเจกค์</label>
+                                    <input class="border border-black rounded-sm p-2" type="text" placeholder="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <label class="text-black font-bold" for="">ไฟล์สไลด</label>
+                                    <input class="border border-black rounded-sm p-2" type="text" placeholder="">
+                                </div>
                             </div>
                         </div>
                     </div>
