@@ -9,31 +9,7 @@
             <!-- box-Project-container -->
             <div class="flex flex-col justify-center items-center w-full">
                 <!-- Navbar -->
-                <div
-                    class="bg-white px-5 py-2 rounded-2xl overflow-x-auto scrollbar-none w-full max-w-[95%] md:w-full lg:w-[990px]">
-                    <ul class="flex gap-5 text-black whitespace-nowrap">
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">หน้าหลัก
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
-                            เสอนหัวข้อ</NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
-                            ยื่นสอบหัวข้อ</NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">บทที่ 1
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">บทที่ 2
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">บทที่ 3
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">บทที่ 4
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">บทที่ 5
-                        </NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
-                            ยื่นสอบจบ</NuxtLink>
-                        <NuxtLink to="/" class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
-                            ส่งเล่มบัณฑิตนิพนธ์</NuxtLink>
-                    </ul>
-                </div>
+                <AppNavbar-2 />
 
                 <!-- box-item-PJ -->
                 <div
