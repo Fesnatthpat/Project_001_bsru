@@ -35,6 +35,7 @@ onUnmounted(() => {
     <div class="bg-[#1c66d6] px-[30px] py-2 flex justify-between items-center z-50 border-b-1 border-white sticky top-0">
         <!-- btn-menu (สำหรับ desktop) -->
         <div class="gap-3 hidden lg:flex">
+            <NuxtLink to="/" class="btn btn-sm">หน้าหลัก</NuxtLink>
             <NuxtLink to="/Page-Project" class="btn btn-sm">หน้าโครงงาน</NuxtLink>
             <div class="btn btn-sm">คู่มือการทำบัณฑิตนิพนธ์</div>
             <div class="btn btn-sm">แบบฟอร์มCP</div>
