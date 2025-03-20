@@ -54,6 +54,7 @@ onUnmounted(() => {
                     class="h-auto w-[200px] rounded-[5px] bg-[#cde1ff] p-2 text-center absolute left-0 top-12 z-50 overflow-hidden transition-all duration-300 ease-in-out menu-dropdown"
                     :class="{ 'max-h-0 opacity-0': !isOpenMenu, 'max-h-[200px] opacity-100': isOpenMenu }">
                     <div class="gap-3 flex flex-col">
+                        <NuxtLink to="/" class="btn btn-sm">หน้าหลัก</NuxtLink>
                         <NuxtLink to="/Page-Project" class="btn btn-sm">หน้าโครงงาน</NuxtLink>
                         <div class="btn btn-sm">คู่มือการทำบัณฑิตนิพนธ์</div>
                         <div class="btn btn-sm">แบบฟอร์มCP</div>
