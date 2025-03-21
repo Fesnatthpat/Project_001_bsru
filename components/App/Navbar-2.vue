@@ -1,11 +1,28 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router';
+import { useRoute, onBeforeRouteLeave } from 'vue-router';
+import { ref, onMounted, watch } from 'vue';
 
 const route = useRoute();
+const menuContainer = ref<HTMLElement | null>(null);
+
+// โหลดตำแหน่งการเลื่อนล่าสุด
+onMounted(() => {
+    const savedScroll = sessionStorage.getItem('menuScroll');
+    if (menuContainer.value && savedScroll) {
+        menuContainer.value.scrollLeft = parseInt(savedScroll, 10);
+    }
+});
+
+// บันทึกตำแหน่งการเลื่อนก่อนเปลี่ยนหน้า
+onBeforeRouteLeave(() => {
+    if (menuContainer.value) {
+        sessionStorage.setItem('menuScroll', menuContainer.value.scrollLeft.toString());
+    }
+});
 </script>
 
 <template>
-    <div
+    <div ref="menuContainer"
         class="bg-white px-5 py-2 rounded-2xl overflow-x-auto scrollbar-none w-full max-w-[95%] md:w-full lg:w-[990px]">
         <ul class="flex gap-5 text-black whitespace-nowrap">
             <NuxtLink to="/Page-Project" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Project' }"

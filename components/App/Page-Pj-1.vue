@@ -30,6 +30,9 @@
                                     <label class="text-black font-bold" for="">ไฟล์สไลด</label>
                                     <input class="border border-black rounded-sm p-2" type="text" placeholder="">
                                 </div>
+                                <div class="text-center">
+                                    <div class="btn bg-[#1c66d6] text-white">ขอยื่นสอบหัวข้อ</div>
+                                </div>
                             </div>
                         </div>
                     </div>

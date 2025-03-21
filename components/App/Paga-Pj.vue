@@ -33,7 +33,7 @@
                                     ยังไม่ยื่นสอบหัวข้อ</h2>
                             </div>
                             <div class="mt-4">
-                                <button class="bg-[#1c66d6] text-white py-2 px-4 rounded-lg">คอมเมนต์</button>
+                                <NuxtLink to="/Comment" class="btn bg-[#1c66d6] text-white rounded-lg">คอมเมนต์</NuxtLink>
                             </div>
                         </div>
                     </div>
