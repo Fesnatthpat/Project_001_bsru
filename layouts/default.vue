@@ -6,7 +6,7 @@
     <div>
         <AppNavbar class=""/>
         <div class="">
-            <slot/>
+            <slot />
         </div>
         <AppFooter />
     </div>

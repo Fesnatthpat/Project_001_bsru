@@ -14,18 +14,18 @@
                 <!-- box-item-PJ -->
                 <div
                     class="bg-white relative flex flex-col items-center w-full max-w-[95%] sm:max-w-full md:w-[990px] lg:max-w-[990px] xl:max-w-[1200px] h-auto mt-5 rounded-2xl p-5">
-                    <div class="text-[24px] sm:text-[30px] font-bold text-center mt-2">ยื่นสอบหัวข้อ</div>
+                    <div class="text-[24px] sm:text-[30px] font-bold text-center mt-2">ส่งเล่มบัณฑิตนิพนธ</div>
                     <div class="mt-5 w-full">
                         <div class="border border-gray-400 w-full h-auto rounded-[5px] p-4 sm:p-5">
                             <div class="flex flex-col gap-y-3">
                                 <div class="flex justify-between flex-col lg:flex-row gap-y-3">
                                     <div class="flex flex-col">
-                                        <label class="text-black font-bold" for="">ชื่อหัวข้อ</label>
+                                        <label class="text-black font-bold" for="">ชื่อหัวข้อโครงงาน</label>
                                         <input class="border border-black rounded-sm p-2 w-full lg:w-[450px]"
                                             type="text" placeholder="">
                                     </div>
                                     <div class="flex flex-col">
-                                        <label class="text-black font-bold" for="">แบบฟอร์ม CP1</label>
+                                        <label class="text-black font-bold" for="">ไฟล์เล่มบัณฑิตนิพนธ์</label>
                                         <input class="border border-black rounded-sm p-2 w-full lg:w-[450px]"
                                             type="text" placeholder="">
                                     </div>

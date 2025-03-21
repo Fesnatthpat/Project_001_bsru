@@ -2,10 +2,10 @@
 </script>
 
 <template>
-    <div class="min-h-screen w-full flex justify-center items-center">
+    <div class="p-2 w-full flex justify-center items-center">
         <!-- bg -->
         <div
-            class="bg-gradient-to-t from-[#a9c9fb] to-[#1c66d6] rounded-2xl w-full p-5 lg:max-w-[1500px] h-auto lg:h-[800px] flex justify-center items-center">
+            class="bg-gradient-to-t from-[#a9c9fb] to-[#1c66d6] rounded-2xl w-full p-5 lg:max-w-[1500px] h-auto lg:h-[800px] lg:mb-0 mb-50 flex justify-center items-center">
             <!-- box-Project-container -->
             <div class="flex flex-col justify-center items-center w-full">
                 <!-- Navbar -->
@@ -14,7 +14,7 @@
                 <!-- box-item-PJ -->
                 <div
                     class="bg-white relative flex flex-col items-center w-full max-w-[95%] sm:max-w-full md:w-[990px] lg:max-w-[990px] xl:max-w-[1200px] h-auto mt-5 rounded-2xl p-5">
-                    <div class="text-[24px] sm:text-[30px] text-center mt-2">โครงงานของฉัน</div>
+                    <div class="text-[24px] sm:text-[30px] text-center font-bold mt-2">โครงงานของฉัน</div>
                     <div
                         class="bg-[#1c66d6] rounded-[5px] flex justify-center items-center text-white w-[60px] h-[30px] sm:w-[70px] sm:h-[40px] absolute right-5 top-5">
                         0%

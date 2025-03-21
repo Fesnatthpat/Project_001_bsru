@@ -23,37 +23,37 @@ const route = useRoute();
                 ยื่นสอบหัวข้อ
             </NuxtLink>
 
-            <NuxtLink to="/chapter-1" :class="{ 'bg-[#1c66d6] text-white': route.path === '/chapter-1' }"
+            <NuxtLink to="/Page-Pj-3" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-3' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 บทที่ 1
             </NuxtLink>
 
-            <NuxtLink to="/chapter-2" :class="{ 'bg-[#1c66d6] text-white': route.path === '/chapter-2' }"
+            <NuxtLink to="/Page-Pj-4" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-4' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 บทที่ 2
             </NuxtLink>
 
-            <NuxtLink to="/chapter-3" :class="{ 'bg-[#1c66d6] text-white': route.path === '/chapter-3' }"
+            <NuxtLink to="/Page-Pj-5" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-5' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 บทที่ 3
             </NuxtLink>
 
-            <NuxtLink to="/chapter-4" :class="{ 'bg-[#1c66d6] text-white': route.path === '/chapter-4' }"
+            <NuxtLink to="/Page-Pj-6" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-6' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 บทที่ 4
             </NuxtLink>
 
-            <NuxtLink to="/chapter-5" :class="{ 'bg-[#1c66d6] text-white': route.path === '/chapter-5' }"
+            <NuxtLink to="/Page-Pj-7" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-7' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 บทที่ 5
             </NuxtLink>
 
-            <NuxtLink to="/final-exam" :class="{ 'bg-[#1c66d6] text-white': route.path === '/final-exam' }"
+            <NuxtLink to="/Page-Pj-8" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-8' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 ยื่นสอบจบ
             </NuxtLink>
 
-            <NuxtLink to="/thesis-submission" :class="{ 'bg-[#1c66d6] text-white': route.path === '/thesis-submission' }"
+            <NuxtLink to="/Page-Pj-9" :class="{ 'bg-[#1c66d6] text-white': route.path === '/Page-Pj-9' }"
                 class="hover:bg-[#1c66d6] hover:text-white transition p-2 rounded-2xl">
                 ส่งเล่มบัณฑิตนิพนธ์
             </NuxtLink>
